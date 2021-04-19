@@ -5,29 +5,29 @@ var y = 5
 function addTwo(x, y){
     return x + y;   
 }
-var result = add(x,y);
-console.log(10 + 5);
+var result = addTwo(x,y);
+console.log(x + y);
 
 
 function subTwo(x, y){
     return x - y;  
 }
-var result = subtract(x,y);
-console.log(10 - 5);
+var result = subTwo(x,y);
+console.log(x - y);
 
 
 function multiTwo(x, y){
     return x * y;
 }
-var result = multiply(x,y);
-console.log(10 * 5);
+var result = multiTwo (x,y);
+console.log(x * y);
 
 
 function divTwo(x, y){
     return x / y; 
 }
-var result = divide(x,y);
- console.log (10 / 5);
+var result = divTwo(x,y);
+ console.log (x/y);
 
 
 
